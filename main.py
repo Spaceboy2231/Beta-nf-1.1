@@ -3469,16 +3469,16 @@ def main():
         print("No cookies found in cookies folder. Add .txt/.json cookies and run again.")
         return
 
-    try:
+   # try:
       #  num_threads_input = input("Enter number of threads (default 30): ")
       #  num_threads = int(num_threads_input) if num_threads_input.strip() else 30
-         if num_threads < 1 or num_threads > 300:
-            raise ValueError
-    except ValueError:
+        # if num_threads < 1 or num_threads > 300:
+           # raise ValueError
+  #  except ValueError:
       #  print("Invalid input, using 30 threads as default")
-        num_threads = 30
+       # num_threads = 30
 
-    check_cookies(num_threads, config)
+   # check_cookies(num_threads, config)
    # input("Press enter to exit\n")
 
 
