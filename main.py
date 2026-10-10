@@ -3470,16 +3470,16 @@ def main():
         return
 
     try:
-        num_threads_input = input("Enter number of threads (default 30): ")
-        num_threads = int(num_threads_input) if num_threads_input.strip() else 30
-        if num_threads < 1 or num_threads > 300:
+      #  num_threads_input = input("Enter number of threads (default 30): ")
+         num_threads = int(num_threads_input) if num_threads_input.strip() else 30
+         if num_threads < 1 or num_threads > 300:
             raise ValueError
     except ValueError:
-        print("Invalid input, using 30 threads as default")
+      #  print("Invalid input, using 30 threads as default")
         num_threads = 30
 
     check_cookies(num_threads, config)
-    input("Press enter to exit\n")
+   # input("Press enter to exit\n")
 
 
 if __name__ == "__main__":
