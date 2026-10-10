@@ -3457,7 +3457,7 @@ def main():
     check_for_updates()
     print("--------------------------------------------------------------------------------------------------")
     print("")
-    print("            👉  Welcome, after moving your cookies to (cookies) folder, press  👈")
+   # print("            👉  Welcome, after moving your cookies to (cookies) folder, press  👈")
    # print("                              Enter if you're ready to start!")
    # input()
 
