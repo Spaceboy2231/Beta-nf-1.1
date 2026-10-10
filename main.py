@@ -3459,7 +3459,7 @@ def main():
     print("")
     print("            👉  Welcome, after moving your cookies to (cookies) folder, press  👈")
     print("                              Enter if you're ready to start!")
-    input()
+   # input()
 
     initial_files = [
         f for f in os.listdir(cookies_folder)
